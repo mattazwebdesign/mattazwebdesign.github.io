@@ -213,7 +213,6 @@ hr {
 
 .menu a > i {
     float: left;
-    display: inline-block;
     vertical-align: middle;
     text-align: left;
     width: 25px;
@@ -303,3 +302,64 @@ hr {
     -o-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
 }
+/* Start ID y for portfolio */
+#y {
+    background: #1a1a1a;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#y h3 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1.5px 1.5px #a9a9a9;
+}
+
+#y i {
+    font-size: 8px;
+    color: #fff;
+    padding: 3px;
+}
+
+#y p {
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+#y img {
+    text-align: center;
+}
+/* Start ID t for Contact Section */
+#t {
+    background: #1a1a1a;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#t h3 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1.5px 1.5px #a9a9a9;
+}
+
+#t i {
+    font-size: 8px;
+    color: #fff;
+    padding: 3px;
+}
+
+#t p {
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+#t img {
+    text-align: center;
+}
+
