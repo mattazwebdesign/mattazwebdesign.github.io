@@ -74,7 +74,7 @@ hr {
    Wrap Sections
    ========================================================================== */
 #headerwrap {
-    background: url(../img/masthead2.jpg) no-repeat center top;
+    background: url(../img/masthead8.png) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -94,21 +94,23 @@ hr {
 
 #headerwrap h1 {
     margin-top: 150px;
-    color: #cc7000;
-    font-size: 70px;
-    font-weight: 700;
+    color: #c71919;
+    font-size: 60px;
+    font-weight: 600;
     font-family: 'EB Garamond', serif;
     font-style: oblique;
     text-shadow: 2px 2px black;
+    text-align: center;
 }
 
-#headerwrap h3 {
-    color: #cc7000;
+#headerwrap h2 {
+    color: #c71919;
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 400;
     font-family: 'EB Garamond', serif;
     font-style: oblique;
     text-shadow: 1px 1px black;
+    text-align: center;
 }
 
 #headerwrap .logo {
@@ -331,6 +333,8 @@ hr {
 
 #y img {
     text-align: center;
+    border-radius: 15px;
+
 }
 /* Start ID t for Contact Section */
 #t {
