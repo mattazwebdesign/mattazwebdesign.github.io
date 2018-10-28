@@ -74,7 +74,7 @@ hr {
    Wrap Sections
    ========================================================================== */
 #headerwrap {
-    background: url(../img/masthead8.png) no-repeat center top;
+    background: url(../img/masthead3.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -100,7 +100,7 @@ hr {
     font-family: 'EB Garamond', serif;
     font-style: oblique;
     text-shadow: 2px 2px black;
-    text-align: center;
+    text-align: justify;
 }
 
 #headerwrap h2 {
@@ -110,7 +110,8 @@ hr {
     font-family: 'EB Garamond', serif;
     font-style: oblique;
     text-shadow: 1px 1px black;
-    text-align: center;
+    text-align: justify;
+    padding-left: 85px;
 }
 
 #headerwrap .logo {
@@ -350,6 +351,13 @@ hr {
     font-weight: 700;
     letter-spacing: 1px;
     text-shadow: 1.5px 1.5px #a9a9a9;
+}
+
+#t h2 {
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+
 }
 
 #t i {
