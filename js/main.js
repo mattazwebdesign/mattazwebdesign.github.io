@@ -7,5 +7,12 @@
 				$('#theMenu').toggleClass('menu-open');
 			});
 
+			document.getElementById("contactMe").addEventListener("click", scrollWin);
 
-})(jQuery)
+			function scrollWin() {
+				window.scrollBy(0, 1200);
+			}
+
+
+
+})(jQuery);

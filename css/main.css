@@ -74,18 +74,12 @@ hr {
    Wrap Sections
    ========================================================================== */
 #headerwrap {
-    background: url(../img/masthead3.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
-    background-attachment: relative;
-    background-position: center center;
+    background: url(../img/masthead3.jpg) no-repeat center center;
     min-height: 800px;
     width: 100%;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -133,7 +127,7 @@ hr {
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 1px;
-    text-shadow: 1.5px 1.5px #a9a9a9;
+    text-shadow: 1px 1px #a9a9a9;
 }
 
 #f i {
@@ -163,7 +157,7 @@ hr {
 }
 
 .menu.menu-open {
-    right: 0px;
+    right: 0;
 }
 
 .menu-wrap {
@@ -318,7 +312,7 @@ hr {
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 1px;
-    text-shadow: 1.5px 1.5px #a9a9a9;
+    text-shadow: 1px 1px #a9a9a9;
 }
 
 #y i {
@@ -350,7 +344,7 @@ hr {
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 1px;
-    text-shadow: 1.5px 1.5px #a9a9a9;
+    text-shadow: 1px 1px #a9a9a9;
 }
 
 #t h2 {
@@ -374,4 +368,13 @@ hr {
 #t img {
     text-align: center;
 }
+.footer-copyright {
+    color: #fff;
+    background-color: #292929;
+}
 
+.footer-copyright p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: medium;
+}
