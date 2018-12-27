@@ -276,13 +276,12 @@ p {
   margin: 0 auto;
   background: linear-gradient(to bottom, #1a1a1a 0%, #666666 100%);
   color: #eee;
-  font-weight: bold;
 }
 
 .section_header:hover
 {
     background: linear-gradient(to bottom, #1a1a1a 0%, #333333 100%);
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .section_header::after
