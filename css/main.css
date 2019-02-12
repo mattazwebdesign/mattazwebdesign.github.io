@@ -144,7 +144,8 @@ button.navbar-toggle {
 }
 
 #headerwrap-contact {
-  margin-top: -20px;
+  margin-top: 40px;
+  padding-left: 60px;
   padding-top: 20px;
   text-align: center;
   background: url(../img/contact1.jpg) no-repeat center center;
