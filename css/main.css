@@ -276,6 +276,26 @@ button.navbar-toggle {
   text-align: center;
 }
 
+#mail-link:link {
+  color: #ffffff;
+}
+
+#mail-link:hover {
+  color: #c71919;
+}
+
+#github-link {
+  color: darkgreen;
+}
+
+#github-link:hover {
+  color: #c71919;
+}
+
+#git {
+  padding-bottom: 6px;
+}
+
 #articles {
   background-color: #1a1a1a;
   padding-bottom: 60px;
