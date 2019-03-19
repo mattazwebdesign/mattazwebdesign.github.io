@@ -74,42 +74,44 @@ button.navbar-toggle {
   padding: 0;
 }
 
-/* ==========================================================================
-   Wrap Sections
-   ========================================================================== */
-#headerwrap {
-  margin-top: -20px;
-  padding-top: 20px;
+#particles-js {
   text-align: center;
-  background: url(../img/masthead3.jpg) no-repeat center center;
-  min-height: 800px;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url(../img/newMasthead.jpg) no-repeat;
+  background-size: 100% 100%;
+  max-height: 850px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: black;
   background-size: cover;
 }
 
-#headerwrap h1 {
-  margin-top: 200px;
-  color: #c71919;
-  font-size: 60px;
-  font-weight: 600;
-  font-family: "EB Garamond", serif;
-  font-style: oblique;
-  text-shadow: 2px 2px black;
-  text-align: left;
+canvas {
+  display: block;
+  max-height: 850px;
 }
 
-#headerwrap h2 {
+.bg-text {
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: white;
+  max-width: 90%;
+  padding: 2em 3em;
+  text-shadow: 0 0 2px #131415;
+}
+
+#particles-js h1 {
+  color: #c71919;
+  font-size: 60px;
+  font-family: "EB Garamond", serif;
+}
+
+#particles-js h2 {
   color: #c71919;
   font-size: 30px;
   font-weight: 400;
   font-family: "EB Garamond", serif;
-  font-style: oblique;
-  text-shadow: 1px 1px black;
-  text-align: left;
-  margin-left: 55px;
 }
 
 #headerwrap-blog {
@@ -172,7 +174,6 @@ button.navbar-toggle {
   color: #c71919;
 }
 
-/* Footer Wrap */
 #f {
   background: #1a1a1a;
   padding-top: 70px;
