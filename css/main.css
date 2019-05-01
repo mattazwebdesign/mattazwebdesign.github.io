@@ -78,7 +78,7 @@ button.navbar-toggle {
   text-align: center;
   background: url(../img/newMasthead.jpg) no-repeat;
   background-size: 100% 100%;
-  max-height: 850px;
+  max-height: auto;
   background-position: bottom;
   background-repeat: no-repeat;
   background-color: black;
@@ -87,15 +87,14 @@ button.navbar-toggle {
 
 canvas {
   display: block;
-  max-height: 850px;
+  max-height: 100%;
 }
 
 .bg-text {
   position: absolute;
-  top: 40%;
+  top: 20%;
   right: 50%;
   transform: translate(50%, -50%);
-  color: white;
   max-width: 90%;
   padding: 2em 3em;
   text-shadow: 0 0 2px #131415;
@@ -103,13 +102,13 @@ canvas {
 
 #particles-js h1 {
   color: #c71919;
-  font-size: 60px;
+  font-size: 3vw;
   font-family: "EB Garamond", serif;
 }
 
 #particles-js h2 {
   color: #c71919;
-  font-size: 30px;
+  font-size: 2vw;
   font-weight: 400;
   font-family: "EB Garamond", serif;
 }
