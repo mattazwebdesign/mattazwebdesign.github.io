@@ -74,41 +74,42 @@ button.navbar-toggle {
   padding: 0;
 }
 
-#particles-js {
+#headerwrap {
+  background: url("../img/newBG_edited.jpg") no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
   text-align: center;
-  background: url(../img/newMasthead.jpg) no-repeat;
-  background-size: 100% 100%;
-  max-height: auto;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-color: black;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 800px;
+  width: 100%;
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
-canvas {
-  display: block;
-  max-height: 100%;
-}
-
 .bg-text {
-  position: absolute;
-  top: 20%;
-  right: 50%;
-  transform: translate(50%, -50%);
-  max-width: 90%;
-  padding: 2em 3em;
+  margin-top: 150px;
+  text-align: center;
   text-shadow: 0 0 2px #131415;
 }
 
-#particles-js h1 {
-  color: #c71919;
-  font-size: 3vw;
+#headerwrap h1 {
+  color: #ffffff;
+  font-size: 60px;
   font-family: "EB Garamond", serif;
 }
 
-#particles-js h2 {
-  color: #c71919;
-  font-size: 2vw;
+#headerwrap h2 {
+  color: #ffffff;
+  font-size: 30px;
   font-weight: 400;
   font-family: "EB Garamond", serif;
 }
