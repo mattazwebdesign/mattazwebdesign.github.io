@@ -209,6 +209,10 @@ button.navbar-toggle {
   text-align: center;
 }
 
+#f iframe {
+  overflow: hidden;
+}
+
 /* Start ID y for portfolio */
 #y {
   background: #1a1a1a;
