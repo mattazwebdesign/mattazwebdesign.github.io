@@ -264,6 +264,7 @@ button.navbar-toggle {
 #dev-intro {
   border: 1px solid #a1a1a1;
   border-radius: 6px;
+  background: #181717d7;
 }
 
 #example-img:hover {
@@ -278,7 +279,7 @@ button.navbar-toggle {
 }
 
 .desc-card {
-  background: rgb(71, 71, 71);
+  background: #333232d7;
   border: solid 3px #1a1a1a;
   border-radius: 8px;
   text-align: left;
@@ -397,6 +398,7 @@ button.navbar-toggle {
 #qr-container {
   border: 1px solid #a1a1a1;
   border-radius: 8px;
+  background: #181717d7;
 }
 
 #qr-explain {
@@ -623,7 +625,8 @@ button.navbar-toggle {
   }
 
   .desc-card {
-    margin: 25px;
+    text-align: center;
+    margin-left: 10px;
   }
 
   .desc-card p {
