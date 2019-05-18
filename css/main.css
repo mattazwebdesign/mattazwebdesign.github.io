@@ -134,7 +134,28 @@ button.navbar-toggle {
   font-family: "EB Garamond", serif;
   font-style: oblique;
   text-align: center;
-  color: #c71919;
+  color: #888888;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgb(173, 170, 170) 35%,
+    rgba(0, 0, 0, 1) 75%
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgb(173, 170, 170) 35%,
+    rgba(0, 0, 0, 1) 75%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgb(173, 170, 170) 35%,
+    rgba(0, 0, 0, 1) 75%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #headerwrap-blog h2 {
@@ -142,7 +163,7 @@ button.navbar-toggle {
   font-family: "EB Garamond", serif;
   font-style: oblique;
   text-align: center;
-  color: #c71919;
+  color: #494545;
 }
 
 #headerwrap-contact {
@@ -162,7 +183,7 @@ button.navbar-toggle {
 #headerwrap-contact h1 {
   font-size: 50px;
   font-weight: 600;
-  color: #c71919;
+  color: #a0a0a0;
   font-family: "EB Garamond", serif;
   font-style: oblique;
 }
@@ -171,7 +192,7 @@ button.navbar-toggle {
   font-weight: 400;
   font-family: "EB Garamond", serif;
   font-style: oblique;
-  color: #c71919;
+  color: #a0a0a0;
 }
 
 .bold7 {
@@ -640,4 +661,9 @@ button.navbar-toggle {
   #qr-container {
     margin: 30px 20px;
   }
+}
+
+#devTabsLogo {
+  text-align: center;
+  padding-bottom: 25px;
 }
