@@ -453,6 +453,10 @@ button.navbar-toggle {
   margin-top: 65px;
 }
 
+#download a {
+  margin: 5px;
+}
+
 #coffee {
   border-top: 1px solid #97f79a;
   background: #8ed665;
