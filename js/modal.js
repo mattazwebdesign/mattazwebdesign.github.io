@@ -1,5 +1,5 @@
 let modal = document.getElementById("tdsModal");
-/* let modalImg = document.getElementById("img01");
+/* let modalImg = document.getElementById("tdsLogo");
 let content = document.getElementById("module-content"); */
 let show = document.getElementById("tdsModalActivate");
 if (show != null) {
