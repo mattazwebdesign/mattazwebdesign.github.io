@@ -1,0 +1,72 @@
+.intro-container {
+  margin-bottom: 30px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: slidein;
+  animation-name: slidein;
+}
+
+.devTabs-intro {
+  background-color: #eeeeee;
+  border: 1px solid #000;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+.devtabs-intro-text {
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.intro-image {
+  text-align: center;
+  margin-top: 40px;
+  padding-left: 25px;
+}
+
+.intro-screenshot {
+  border-radius: 6px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.modal-total {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: rgb(236, 236, 236);
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
