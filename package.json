@@ -1,0 +1,61 @@
+{
+  "name": "mattaz-website",
+  "private": true,
+  "description": "Mattaz Web Design",
+  "version": "0.1.0",
+  "author": "Matthew Rebehn <matthew@mattaz.com>",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gatsby": "^2.13.31",
+    "gatsby-image": "^2.2.6",
+    "gatsby-plugin-google-analytics": "^2.1.7",
+    "gatsby-plugin-manifest": "^2.2.3",
+    "gatsby-plugin-offline": "^2.2.4",
+    "gatsby-plugin-react-helmet": "^3.1.2",
+    "gatsby-plugin-sharp": "^2.2.8",
+    "gatsby-plugin-sitemap": "^2.2.6",
+    "gatsby-remark-copy-linked-files": "^2.1.5",
+    "gatsby-remark-images": "^3.1.8",
+    "gatsby-source-filesystem": "^2.1.5",
+    "gatsby-transformer-remark": "^2.6.11",
+    "gatsby-transformer-sharp": "^2.2.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "@iconify/icons-simple-line-icons": "^1.0.0",
+    "@iconify/react": "^1.1.1",
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby",
+    "mattaz",
+    "website",
+    "blog",
+    "tech",
+    "web design",
+    "development",
+    "articles"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy:github": "npm run build && node ./scripts/deploy-github"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cipher-Coder/mattaz_gatsby"
+  },
+  "bugs": {
+    "url": "https://github.com/Cipher-Coder/mattaz_gatsby/issues"
+  }
+}

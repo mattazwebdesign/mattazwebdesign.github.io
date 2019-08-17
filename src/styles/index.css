@@ -1,0 +1,55 @@
+.intro-section {
+  background-color: #f6f6f6;
+}
+
+.intro {
+  padding-top: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.intro-text {
+  max-width: 420px;
+  margin: auto;
+  opacity: 0.7;
+  font-size: 1.2rem;
+}
+
+.clean-block {
+  padding: 10px 20px 40px;
+  margin: 3.5rem;
+}
+
+.cta-section {
+  padding-top: 40px;
+}
+
+.light-blue {
+  color: rgb(59, 153, 224);
+}
+
+.support-text {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+.carousel-info {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  text-align: center;
+  padding-bottom: 45px;
+  padding-top: 60px;
+}
+
+.carousel-section {
+  background-color: #f6f6f6;
+}
+
+@media screen and (max-width: 940px) {
+  .carousel-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
