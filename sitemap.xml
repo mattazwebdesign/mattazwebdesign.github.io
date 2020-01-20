@@ -11,4 +11,5 @@
 <url> <loc>https://mattaz.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mattaz.com/devtabs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://mattaz.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mattaz.com/uses/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
